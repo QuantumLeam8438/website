@@ -8,6 +8,8 @@ my_image.src = 'Images/tcmaker.png';
 console.log("preloaded banner3");
 my_image.src = 'Images/Gormans_edited.png';
 console.log("preloaded banner4");
+my_image.src = 'Images/PANlogo.png';
+console.log("preloaded banner5");
 
 //Rotate Images on Index Page, with the 2 images starting at different points
 function showimg(){
@@ -27,6 +29,11 @@ setTimeout(show4,8000);
 function show4()
 {
 document.getElementById('indexSponsor').src="Images/Gormans_edited.png";
+setTimeout(show5,8000);
+}
+function show5()
+{
+document.getElementById('indexSponsor').src="Images/PANlogo.png";
 setTimeout(showimg,8000);
 }
 
