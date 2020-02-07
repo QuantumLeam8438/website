@@ -40,8 +40,8 @@ setTimeout(show6,8000);
 }
 function show6()
 {
-  document.getElementByID('indexSponsor').src="Images/flightfaction.png";
-  setTimeout(showimg,8000);
+document.getElementById('indexSponsor').src="Images/flightfaction.png";
+setTimeout(showimg,8000);
 }
 function myFunction(imgs) {
   // Get the expanded image
