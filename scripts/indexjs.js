@@ -10,6 +10,8 @@ my_image.src = 'Images/Gormans_edited.png';
 console.log("preloaded banner4");
 my_image.src = 'Images/PANlogo.png';
 console.log("preloaded banner5");
+my_image.src = 'Images/flightfaction.png':
+console.log("prelaoded banner6");
 
 //Rotate Images on Index Page, with the 2 images starting at different points
 function showimg(){
@@ -34,9 +36,13 @@ setTimeout(show5,8000);
 function show5()
 {
 document.getElementById('indexSponsor').src="Images/PANlogo.png";
-setTimeout(showimg,8000);
+setTimeout(show6,8000);
 }
-
+function show6()
+{
+  document.getElementByID('indexSponsor').src="Images/flightfaction.png";
+  setTimeout(showimg,8000);
+}
 function myFunction(imgs) {
   // Get the expanded image
   var expandImg = document.getElementById("expandedImg");
